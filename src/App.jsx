@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
   const [state, setState] = React.useState();
-  const unusedVar = '2';
+  const unusedVar = '22';
 
   React.useEffect(() => {
     setState(state + 2);
